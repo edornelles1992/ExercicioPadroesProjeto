@@ -25,7 +25,7 @@ public class Carrinho implements Observer {
 		return instance;
 	}
 	
-	public Carrinho() {
+	private Carrinho() {
 		carrinhoObservable.addObserver(this);
 	}	
 
